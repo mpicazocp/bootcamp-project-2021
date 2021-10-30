@@ -42,7 +42,7 @@
         <input id= "newIngredient" placeholder="Input Ingredient Here" value=""/>
         <button onclick= "addIngredient()"> Add! </button>
         <h2>Here are the Instructions:</h2>
-        <ol>
+        <ol id= instructions>
             <li>First begin by cutting up your potatoes and put them in the air fryer at 370 degrees for 10 minutes. </li>
             <li>While thats cooking, 
                 start scrambling your eggs seasoned with salt and pepper. Make sure not to over cook your eggs! </li>
@@ -50,9 +50,9 @@
                 your avocado into small cubes.</li>
             <li> Once everything is complete layer all 
                 ingredients (including cheese to taste) on the tortilla and roll into a burrito and VOILA a yummy breakfast burrito!!</li>
-          </ol>
-            
-        
+        </ol>
+        <textarea id="newInstruction" placeholder="Input Instruction Here" rows="4" cols="50"></textarea>
+        <button onclick= "addInstruction()"> Add! </button>
     </body>
 
 
